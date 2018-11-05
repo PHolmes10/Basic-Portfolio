@@ -8,7 +8,7 @@ body {
     width: 100%;
     border-bottom: 2px solid rgb(197 197 197);
     font-family: 'Georgia', Times, Times New Roman, serif;
-    position: relative;
+    position: fixed;
     top: 0px;
 }
 
@@ -17,7 +17,7 @@ body {
     background-color: #4aaaa5;
     width: 320px;
     height: 50px;
-    position: absolute;
+    position: fixed;
     top: 0px;
     color: white;
     font-weight: bolder;
@@ -33,6 +33,18 @@ body {
     padding: 20px;
     color: #777777;
     padding-top: 30px;
+}
+
+a:link {
+    color: #777777; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: #777777;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 .hi1 {
@@ -53,10 +65,13 @@ body {
     margin-left: 100px;
     margin-right: 100px;
     border: 1px solid rgb(216, 216, 216);
-    margin-top: 40px;
+    margin-top: 150px;
     box-sizing: border-box;
     margin-bottom: 150px;
+}
 
+.box-portfolio {
+    height: 650px;
 }
 
 .about-me-title {
@@ -101,6 +116,44 @@ hr {
     margin-right: 40px;
     margin-top: 30px;
     margin-left: 40px;
+}
+
+form {
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    color: #777777;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.namefield {
+    width: 94%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+}
+
+.emailfield {
+    width: 94%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.messagefield {
+    width: 94%;
+    height: 220px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.submit {
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 .footer {
